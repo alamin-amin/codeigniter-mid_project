@@ -14,33 +14,33 @@
           <!-- Breadcrump Start -->
           <nav class="breadcrumb" style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#"><i class="fa-solid fa-house"></i> Project</a></li>
-              <li class="breadcrumb-item active" aria-current="page">DashBoard</li>
+              <li class="breadcrumb-item text-white"><a href="#"><i class="fa-solid fa-house"></i> Project</a></li>
+              <li class="breadcrumb-item active text-white" aria-current="page">DashBoard</li>
             </ol>
           </nav>
            <!-- Breadcrump End -->
            <!-- Content Start -->
             <div class="main_content">
                 <div class="form-body container" style="width: 80%; margin:0 auto">
-                    <h4>Add Category</h4>
+                    <h4>Add Customer</h4>
                     <form action="">
                         <div class="form-group">
-                          <label for="">Category Name:</label>
+                          <label for="">Customer Name:</label>
                           <input class="form-control" type="text" placeholder="Enter Customer Name">
                         </div>
                         <br>
                         <div class="form-group">
-                          <label for="">Category Email:</label>
+                          <label for="">Customer Email:</label>
                           <input class="form-control" type="text" placeholder="Enter Customer Email">
                         </div>
 
                         <br>
                         <div class="form-group">
-                          <label for="">Address:</label>
+                          <label for="">Customer Phone:</label>
                           <input class="form-control" type="text" placeholder="Enter Customer Address">
                         </div>
                         <br>
-                        <input type="submit" class="mybtn-hightlight btn" value="Add Category">
+                        <input type="submit" class="mybtn-hightlight btn" value="Add Customer">
                     </form>
                 </div>
             </div>

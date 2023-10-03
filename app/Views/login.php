@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css')?>">
 
 </head>
-<div class="container">
+<div class="container bg-light">
 
 	<div class="screen">
 		<div class="screen__content">
@@ -19,11 +19,11 @@
 					<input type="password" class="login__input" placeholder="Password">
 				</div>
                 <a href="<?= base_url()?>/public">
-				<button type="button" class="btn btn-primary text-center">logIn</button>
+				<button type="button" class="btn btn-primary ">logIn</button>
                 </a>			
 			</form>
 			<div class="social-login">
-				<h3>log in via</h3>
+				<!-- <h3>log in via</h3> -->
 				<div class="social-icons">
 					<a href="#" class="social-login__icon fab fa-instagram"></a>
 					<a href="#" class="social-login__icon fab fa-facebook"></a>

@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #8af4f87d;
-    --secondary-color: #54a9db;
+    --primary-color: #e8f88a7d;
+    --secondary-color: #726b5d;
     --body-color: hsl(312, 24%, 4%);
-    --highlight-color: #b2f2f9;
-    --breadcrumb-background: #509cf2;
+    --highlight-color: #1a1c1d;
+    --breadcrumb-background: #726b5d;
     --footer-background: #55dbf3;
     --footer-color: rgb(12, 15, 15);
   }
@@ -15,7 +15,7 @@
   --highlight-color: #fb9bd9;
   --breadcrumb-background: #f864e4;
   --footer-background: #222F3E;
-  --footer-color: rgb(52, 238, 238);
+  --footer-color: rgb(35, 41, 41);
       }
 * {
   padding: 0;

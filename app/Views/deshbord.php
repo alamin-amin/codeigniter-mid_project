@@ -55,8 +55,14 @@
 							</div>
 						</div>
 					</div>
+
+					<div class='pt-5'>
+						<img src="../assets/img/cart.png" alt="" srcset="" height="400px" width='500px' >
+					</div>
 				</div>
         </div>
+
+		
        
     </div>
 </div>

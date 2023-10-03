@@ -28,6 +28,10 @@ class Deshbord extends BaseController
     {
         return view('login');
     }
+    public function creat_order()
+    {
+        return view('creat_order');
+    }
  
  
 }

@@ -25,22 +25,22 @@
                     <h4>Add Product</h4>
                     <form action="">
                         <div class="form-group">
-                          <label for="">Category Name:</label>
+                          <label for="">Product Name:</label>
                           <input class="form-control" type="text" placeholder="Enter Customer Name">
                         </div>
                         <br>
                         <div class="form-group">
-                          <label for="">Category Email:</label>
+                          <label for="">Product Category:</label>
                           <input class="form-control" type="text" placeholder="Enter Customer Email">
                         </div>
 
                         <br>
                         <div class="form-group">
-                          <label for="">Address:</label>
+                          <label for="">Product Unit:</label>
                           <input class="form-control" type="text" placeholder="Enter Customer Address">
                         </div>
                         <br>
-                        <input type="submit" class="mybtn-hightlight btn" value="Add Category">
+                        <input type="submit" class="mybtn-hightlight btn" value="Add Product">
                     </form>
                 </div>
             </div>

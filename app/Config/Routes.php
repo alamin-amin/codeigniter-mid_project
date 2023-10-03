@@ -13,7 +13,8 @@ $routes->get('/add_Customers', 'Deshbord::add_Customers');
 $routes->get('/all_Products', 'Deshbord::all_Products');
 
 $routes->get('/add_Product', 'Deshbord::add_Product');
-// $routes->get('loginController', 'LoginController::loging');
+$routes->get('/creat_order', 'Deshbord::creat_order');
+
 $routes->get('/login', 'Deshbord::login');
 
 

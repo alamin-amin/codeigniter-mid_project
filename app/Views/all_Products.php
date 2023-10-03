@@ -15,11 +15,13 @@
           <nav class="breadcrumb" style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="#"><i class="fa-solid fa-house"></i> Project</a></li>
-              <li class="breadcrumb-item active" aria-current="page">All_Products List</li>
+              <li class="breadcrumb-item active text-white" aria-current="page">All_Products List</li>
             </ol>
           </nav>
            <!-- Breadcrump End -->
            <!-- Content Start -->
+
+           <h2 class="text-center pt-3">All_Products List</h2>
            <div class="main_content">
             <div class="table-responsive">
               <table>
@@ -100,28 +102,7 @@
                       <button class="delete-btn">Delete</button>
                     </td>
                   </tr>
-                  <tr>
-                    <td><input type="checkbox" class="select"></td>
-                    <td>0001</td>
-                    <td>John Doe</td>
-                    <td>johndoe@example.com</td>
-                    <td>Mirpur,Dhaka</td>
-                    <td>
-                      <button class="edit-btn">Edit</button>
-                      <button class="delete-btn">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox" class="select"></td>
-                    <td>0001</td>
-                    <td>John Doe</td>
-                    <td>johndoe@example.com</td>
-                    <td>Mirpur,Dhaka</td>
-                    <td>
-                      <button class="edit-btn">Edit</button>
-                      <button class="delete-btn">Delete</button>
-                    </td>
-                  </tr>
+                 
                   <!-- <tr>
                     <td><input type="checkbox" class="select"></td>
                     <td>0001</td>

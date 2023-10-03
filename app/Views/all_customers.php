@@ -12,14 +12,15 @@
 
             <!-- <section class="content col-md-8 col-lg-9 col-xxl-10"> -->
           <!-- Breadcrump Start -->
-          <nav class="breadcrumb" style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+          <nav class="breadcrumb" style="--bs-breadcrumb-divider: '>' width:100%" aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#"><i class="fa-solid fa-house"></i> Project</a></li>
-              <li class="breadcrumb-item active" aria-current="page">DashBoard</li>
+              <li class="breadcrumb-item text-white"><a href="#"><i class="fa-solid fa-house text-white"></i> Project</a></li>
+              <li class="breadcrumb-item active text-white" aria-current="page">DashBoard</li>
             </ol>
           </nav>
            <!-- Breadcrump End -->
            <!-- Content Start -->
+           <h2 class="text-center pt-3">All Coustomer</h2>
            <div class="main_content">
             <div class="table-responsive">
               <table>
