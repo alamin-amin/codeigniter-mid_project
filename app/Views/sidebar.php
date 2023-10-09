@@ -87,7 +87,7 @@
                     <a class="btn btn-block text-white" href=""><i class="fa-solid fa-cart-flatbed"></i>&nbsp; All Orders</a>
                   </div>
                   <div class="accordion-body">
-                    <a class="btn btn-block text-white " href=""><i class="fa-solid fa-cart-plus"></i>&nbsp; Create Order</a>
+                    <a class="btn btn-block text-white " href="creat_order"><i class="fa-solid fa-cart-plus"></i>&nbsp; Create Order</a>
                   </div>
                 </div>
               </div>

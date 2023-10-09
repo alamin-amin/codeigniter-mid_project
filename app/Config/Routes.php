@@ -18,3 +18,11 @@ $routes->get('/creat_order', 'Deshbord::creat_order');
 $routes->get('/login', 'Deshbord::login');
 
 
+// CRUD RESTful user details Routes users 2
+$routes->get('users-list', 'UserCrud::index');
+$routes->get('user-form', 'UserCrud::create');
+$routes->post('submit-form', 'UserCrud::store');
+$routes->get('edit-view/(:num)', 'UserCrud::singleUser/$1');
+$routes->post('update', 'UserCrud::update');
+$routes->get('delete/(:num)', 'UserCrud::delete/$1');
+$routes->get('user/add-user', 'UserCrud::create');
