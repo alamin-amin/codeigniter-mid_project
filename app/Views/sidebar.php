@@ -135,7 +135,7 @@
                     <a class="btn btn-block text-white" href=""><i class="fa-solid fa-users"></i>&nbsp; All Users</a>
                   </div>
                   <div class="accordion-body">
-                    <a class="btn btn-block text-white" href=""><i class="fa-solid fa-user-plus"></i>&nbsp; Add Users</a>
+                    <a class="btn btn-block text-white" href="user/add-user"><i class="fa-solid fa-user-plus"></i>&nbsp; Add Users</a>
                   </div>
                   <div class="accordion-body">
                     <a class="btn btn-block text-white" href=""><i class="fa-solid fa-toolbox"></i>&nbsp; Roles</a>

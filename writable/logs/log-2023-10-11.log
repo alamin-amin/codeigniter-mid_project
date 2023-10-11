@@ -1,0 +1,11 @@
+CRITICAL - 2023-10-11 06:20:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\edit_view.php on line 19.
+ 1 APPPATH\Views\edit_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\codeigniter-mid_project\\app\\Views\\edit_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\xampp\\htdocs\\codeigniter-mid_project\\app\\Views\\edit_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit_view', [], true)
+ 5 APPPATH\Controllers\UserCrud.php(35): view('edit_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->singleUser('12')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

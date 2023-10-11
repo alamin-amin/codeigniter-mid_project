@@ -53,6 +53,6 @@ class UserCrud extends Controller
     public function delete($id = null){
         $userModel = new UserModel();
         $data['user'] = $userModel->where('id', $id)->delete($id);
-        return $this->response->redirect(site_url('/users-list'));
+        return $this->response->redirect(base_url('/public/users-list'));
     }    
 }

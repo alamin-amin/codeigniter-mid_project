@@ -1,11 +1,13 @@
-
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   </head?
 
 <div class="d-flex ">
    <div class="col-md-2 mt-4 p-5"></div>
    <div class="col-md-10 mt-4 p-5">
       <div class="d-flex justify-content-end">
       <h1 class="text-center p-3 mb-2 bg-primary text-white">User Details</h1>
-         <a href="<?php echo base_url('user-form') ?>" class="btn btn-success mb-2">Add User</a>
+         <a href="<?php echo base_url('public/user-form') ?>" class="btn btn-success mb-2 fload-end">Add User</a>
       </div>
       <?php
       if (isset($_SESSION['msg'])) {
@@ -37,7 +39,7 @@
                         <td><?php echo $user['address']; ?></td>
                         <td>
                            <a href="<?php echo base_url('public/edit-view/' . $user['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
-                           <a href="<?php echo base_url('delete/' . $user['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
+                           <a href="<?php echo base_url('public/delete/' . $user['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
                         </td>
                      </tr>
                   <?php endforeach; ?>

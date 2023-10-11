@@ -7,7 +7,7 @@
         <div class="col-3">
         <?= $this->include('sidebar') ?>
         </div>
-        <div class="col-8">
+        <div class="col-9">
             <h1>this is about</h1>
         </div>
         

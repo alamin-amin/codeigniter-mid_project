@@ -32,6 +32,4 @@ class Deshbord extends BaseController
     {
         return view('creat_order');
     }
- 
- 
 }
