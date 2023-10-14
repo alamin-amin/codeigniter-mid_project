@@ -47,21 +47,9 @@
            <!-- Content End -->
         </section>
       </section>
-
-
-
-
-
-
-
-
-
-
         </div>
         
     </div>
 </div>
-<?= $this->include('footer') ?>
-
-  
+<?= $this->include('footer') ?> 
 <?= $this->endSection() ?>

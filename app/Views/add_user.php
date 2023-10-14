@@ -1,13 +1,10 @@
 
 
 
+<?= $this->extend('nav') ?>
 
+<?= $this->section('content') ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Codeigniter 4 Add User With Validation Demo</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <style>
     .container {
       max-width: 500px;
@@ -19,12 +16,18 @@
       color: red;
     }
   </style>
-</head>
-<body>
-  <div class="container mt-5">
+
+
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-3">
+          <?= $this->include('sidebar') ?>
+        </div>
+      <div class="col-8">
+
     <form method="post" id="add_create" name="add_create" 
     action="<?= base_url('public/submit-form') ?>">
-    <h1>Add User Information </h1>
+    <h1 style= " text-align:center">Add User Information </h1>
       <div class="form-group">
         <label>Name:</label>
         <input type="text" name="name" class="form-control">
@@ -53,10 +56,16 @@
         <button type="submit" class="btn btn-primary btn-block">Add User</button>
       </div>
     </form>
+    </div>
   </div>
+  <?= $this->include('footer') ?> 
+<?= $this->endSection() ?>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
+  
+
+  
   <script>
     if ($("#add_create").length > 0) {
       $("#add_create").validate({
@@ -111,5 +120,4 @@
       })
     }
   </script>
-</body>
-</html>
+

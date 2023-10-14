@@ -1,5 +1,7 @@
 
+<?= $this->extend('nav') ?>
 
+<?= $this->section('content') ?>
   <style>
     .container {
       max-width: 500px;
@@ -11,9 +13,15 @@
       color: red;
     }
   </style>
-</head>
-<body>
-  <div class="container mt-5">
+
+
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-3">
+          <?= $this->include('sidebar') ?>
+        </div>
+      <div class="col-8">
+
     <form method="post" id="update_user" name="update_user" 
     action="<?= base_url('public/update') ?>">
       <input type="hidden" name="id" id="id" value="<?php echo $user_obj['id']; ?>">
@@ -40,12 +48,13 @@
       </div>
 
       <div class="form-group">
-        <button type="submit" class="btn btn-danger btn-block">Save Data</button>
+        <button type="submit" class="btn btn-success btn-block mt-2">Update User Data</button>
       </div>
     </form>
   </div>
  
-
+  <?= $this->include('footer') ?> 
+<?= $this->endSection() ?>
   
   <script>
     if ($("#update_user").length > 0) {
@@ -99,5 +108,3 @@
       })
     }
   </script>
-</body>
-</html>

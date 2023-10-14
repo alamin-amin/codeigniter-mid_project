@@ -187,6 +187,4 @@
     </div>
 </div>
 <?= $this->include('footer') ?>
-
-  
 <?= $this->endSection() ?>

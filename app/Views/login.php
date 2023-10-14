@@ -18,7 +18,7 @@
 					<i class="login__icon fas fa-lock"></i>
 					<input type="password" class="login__input" placeholder="Password">
 				</div>
-                <a href="<?= base_url()?>/public">
+                <a href="<?= base_url()?>public/dashboard">
 				<button type="button" class="btn btn-primary ">logIn</button>
                 </a>			
 			</form>

@@ -16,7 +16,7 @@
             <div class="accordion-item bg-secondary">
                 <h2 class="accordion-header">
                   <button class="accordion-button" type="button" >
-                  <a class="nav-link text-white" aria-current="page" href="<?= base_url() ?>/public"> Deshbord
+                  <a class="nav-link text-white" aria-current="page" href="<?= base_url() ?>/public/dashboard"> Deshbord
                   </button>
                 </h2>
                 <!-- <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
@@ -34,7 +34,7 @@
 
 
 
-
+              
 
 
               <div class="accordion-item">
@@ -75,6 +75,27 @@
                   </div>
                 </div>
               </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <i class="fa-solid fa-user"></i>&nbsp; Users
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <a class="btn btn-block text-white" href=""><i class="fa-solid fa-users"></i>&nbsp; All Users</a>
+                  </div>
+                  <div class="accordion-body">
+                    <a class="btn btn-block text-white" href="user/add-user"><i class="fa-solid fa-user-plus"></i>&nbsp; Add Users</a>
+                  </div>
+                  <div class="accordion-body">
+                    <a class="btn btn-block text-white" href=""><i class="fa-solid fa-toolbox"></i>&nbsp; Roles</a>
+                  </div>
+                </div>
+              </div>
+
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
@@ -123,25 +144,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    <i class="fa-solid fa-user"></i>&nbsp; Users
-                  </button>
-                </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <a class="btn btn-block text-white" href=""><i class="fa-solid fa-users"></i>&nbsp; All Users</a>
-                  </div>
-                  <div class="accordion-body">
-                    <a class="btn btn-block text-white" href="user/add-user"><i class="fa-solid fa-user-plus"></i>&nbsp; Add Users</a>
-                  </div>
-                  <div class="accordion-body">
-                    <a class="btn btn-block text-white" href=""><i class="fa-solid fa-toolbox"></i>&nbsp; Roles</a>
-                  </div>
-                </div>
-              </div>
+          
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"

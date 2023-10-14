@@ -57,7 +57,7 @@
                     <hr class="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item text-white" href="<?= base_url() ?>public/login">Logout</a>
+                    <a class="dropdown-item text-white" href="<?= base_url() ?>/public/login">Logout</a>
                   </li>
                 </ul>
               </li>
